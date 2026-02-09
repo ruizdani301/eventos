@@ -14,7 +14,7 @@ services:
 
   backend:
     build: 
-      context: ./misEventos
+      context: ./miseventos-backend
     container_name: backend_app
     restart: always
     depends_on:
@@ -29,7 +29,7 @@ services:
 
   frontend:
     build:
-      context: ./front_miseventos
+      context: ./miseventos-frontend
     container_name: frontend_app
     restart: always
     depends_on:
