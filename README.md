@@ -71,7 +71,7 @@ Para desplegar el proyecto desde cero en cualquier máquina con Docker:
 - Clonar el orquestador:
 Bash
 * git clone https://github.com/ruizdani301/eventos.git
-* cd miseventos-deploy
+* cd eventos
 
 ### Crear .env
  * Crea una archivo .env en la raiz del repositorio y copia la plantilla de ejemplo de .env_example.
