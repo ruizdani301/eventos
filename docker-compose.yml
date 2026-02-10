@@ -32,6 +32,8 @@ services:
       context: ./miseventos-frontend
       args:
         - VITE_API_URL=${VITE_API_URL}
+    env_file:
+      - ./miseventos-backend/.env
     container_name: frontend_app
     restart: always
     depends_on:
