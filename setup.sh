@@ -18,7 +18,7 @@ if [ ! -f ".env" ]; then
 fi
 
 # 3. Levantar Docker
-echo "🐳 Levantando contenedores con tu configuración manual..."
+echo "Levantando contenedores con tu configuración manual..."
 sudo docker compose up -d --build
 
 echo "✨ ¡Listo! Backend y Frontend corriendo."

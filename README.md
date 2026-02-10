@@ -70,7 +70,7 @@ volumes:
 Para desplegar el proyecto desde cero en cualquier máquina con Docker:
 - Clonar el orquestador:
 Bash
-* git clone https://github.com/ruizdani301/miseventos-deploy.git
+* git clone https://github.com/ruizdani301/eventos.git
 * cd miseventos-deploy
 
 ### Crear .env
